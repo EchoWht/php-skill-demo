@@ -1,9 +1,7 @@
 <?php
-/*
- * 将二维码和背景图拼接起来
- *
- * */
 require_once ('func.php');
-$data="http://www.blskye.com";
+//$data=$_GET['data'];
+//$nickname=$_GET['nickname'];
+$data="http://www.cnwante.com/wap/tmpl/member/register.html?inviteid=96339789";
 $nickname="王昊天";
 qrcode($data,$nickname);

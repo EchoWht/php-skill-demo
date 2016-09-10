@@ -14,7 +14,7 @@ function qrcode($data,$nickname){
 
     /*****************拼接图片2016-4-11 10:07:52start*******************/
 //1.字符串
-    $oneword = "你好";
+    $oneword = "我为万特代言";
 
 //2.获得二维码图片
     $erweima=imagecreatefrompng($path.$time.".png");
