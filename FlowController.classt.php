@@ -567,10 +567,7 @@ class FlowController extends CommonController {
                     }
                 }
                 // 如果不是微信浏览器访问并且不是微信会员 则不显示微信支付
-                // if ($payment ['pay_code'] == 'wxpay' ) {
-                    // unset($payment_list [$key]);
-                // }
-				if ($payment ['pay_code'] == 'wxpay' && !is_wechat_browser() && empty($_SESSION['openid'])) {
+                if ($payment ['pay_code'] == 'wxpay' ) {
                     unset($payment_list [$key]);
                 }
                 // 兼容过滤ecjia支付方式
