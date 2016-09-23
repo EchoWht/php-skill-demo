@@ -1,5 +1,0 @@
-<?php
-require_once ('func.php');
-$data="http://www.blskye.com";
-$nickname="王昊天";
-qrcode($data,$nickname);
