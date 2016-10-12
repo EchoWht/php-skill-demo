@@ -22,9 +22,9 @@
 	$mailcontent = "<h1>".$_GET['content']."</h1>";//邮件内容
 	$mailtype = "HTML";//邮件格式（HTML/TXT）,TXT为文本邮件
 	//************************ 配置信息 ****************************
-if ($mailcontent!=''){
+if ($_GET['content']!=''){
 	$smtp = new smtp($smtpserver,$smtpserverport,true,$smtpuser,$smtppass);//这里面的一个true是表示使用身份验证,否则不使用身份验证.
-	$smtp->debug = true;//是否显示发送的调试信息
+//	$smtp->debug = true;//是否显示发送的调试信息
 	$state = $smtp->sendmail($smtpemailto, $smtpusermail, $mailtitle, $mailcontent, $mailtype);
 	if($state==""){
 //		shibai
