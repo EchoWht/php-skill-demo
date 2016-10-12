@@ -98,12 +98,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sendmail.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/debug_email/sendmail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+              <folding>
+                <element signature="e#8#299#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,6 +167,7 @@
         <option value="$PROJECT_DIR$/erweima/pinjie.php" />
         <option value="$PROJECT_DIR$/debug/wuxianji_user.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/debug_email/sendmail.php" />
       </list>
     </option>
   </component>
@@ -258,6 +271,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php_project" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="debug_email" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -276,11 +303,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp\www\php_project\debug_email" />
       <recent name="D:\wamp\www\php_project" />
       <recent name="D:\wamp\www\php_project\email" />
       <recent name="D:\wamp\www\php_project\captcha" />
       <recent name="D:\wamp\www\project" />
-      <recent name="D:\wamp\www\project\erweima" />
     </key>
   </component>
   <component name="RunManager">
@@ -352,12 +379,12 @@
       <workItem from="1463998463679" duration="804000" />
       <workItem from="1469687886369" duration="2658000" />
       <workItem from="1472547542623" duration="1146000" />
-      <workItem from="1476264474904" duration="332000" />
+      <workItem from="1476264474904" duration="572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8647000" />
+    <option name="totallyTimeSpent" value="8887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -742,14 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/debug_email/sendmail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/email/sendmail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -765,6 +784,16 @@
         <state relative-caret-position="180">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug_email/sendmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding>
+            <element signature="e#8#299#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
