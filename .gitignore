@@ -1,0 +1,10 @@
+#缓存
+Runtime
+#phpstrom
+.idea
+.DS_Store
+.project
+#配置文件
+config.php
+Application/Common/Conf/config.php
+/uploads/*
