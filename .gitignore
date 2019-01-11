@@ -8,3 +8,4 @@ Runtime
 config.php
 Application/Common/Conf/config.php
 /uploads/*
+.idea
